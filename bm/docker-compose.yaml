@@ -9,7 +9,7 @@ services:
       - LANGFLOW_HOST=0.0.0.0
       - LANGFLOW_PORT=7860
     env_file:
-      - .env
+      - ./.env
 
   caddy:
     image: caddy:latest
