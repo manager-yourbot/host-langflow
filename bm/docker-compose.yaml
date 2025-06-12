@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   langflow:
-    image: langflowai/langflow:latest
+    image: manager-yourbot/langflow_new:latest
     ports:
       - "7860:7860"
     environment:
