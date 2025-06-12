@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   langflow:
-    image: manager-yourbot/langflow_new:latest
+    image: manager-yourbot/langflow:latest
     ports:
       - "7860:7860"
     environment:
@@ -19,7 +19,7 @@ services:
       - caddy_data:/data
       - caddy_config:/config
     depends_on:
-      - langflow_new
+      - langflow
 
 volumes:
   caddy_data:
