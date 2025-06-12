@@ -1,4 +1,4 @@
-FROM manager-yourbot/langflow:latest
+FROM langflowai/langflow:latest
 
 EXPOSE 7860
 
