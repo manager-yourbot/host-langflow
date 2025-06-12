@@ -19,7 +19,7 @@ services:
       - caddy_data:/data
       - caddy_config:/config
     depends_on:
-      - langflow
+      - langflow_new
 
 volumes:
   caddy_data:
