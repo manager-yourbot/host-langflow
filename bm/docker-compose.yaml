@@ -8,8 +8,8 @@ services:
     environment:
       - LANGFLOW_HOST=0.0.0.0
       - LANGFLOW_PORT=7860
-   volumes:
-      - ./.env:/app/.env
+    env_file:
+      - .env
 
   caddy:
     image: caddy:latest
